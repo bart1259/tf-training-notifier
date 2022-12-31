@@ -10,7 +10,7 @@ notifier_chat_id = None
 
 def test_notifier():
     check_setup()
-    send_telegram_message("Test Message. If you have recieved this, everything is configured correctly.")
+    send_telegram_message("Test Message. If you have recieved this, everything is configured correctly. Instructions can be found at https://bart1259.github.io/tf-training-notifier/")
 
 def check_setup():
     global notifier_bot_token

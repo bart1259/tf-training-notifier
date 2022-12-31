@@ -27,4 +27,4 @@ requires-python = ">=3.9"
 dev = []
 
 [project.urls]
-Homepage = "FIXME"
+Homepage = "https://github.com/bart1259/tf-training-notifier"
