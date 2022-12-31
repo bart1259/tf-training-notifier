@@ -1,6 +1,8 @@
 # Tensorflow Training Notifier
 
-A python package which periodically notifies you of your Tensorflow job's progress. 
+A python package which periodically notifies you of your Tensorflow job's progress through Telegram notifications.
+
+<img src="https://user-images.githubusercontent.com/21147581/210123460-1e33c999-8f6a-44bc-a953-6e258d7516fb.jpg" alt="drawing" width="450"/>
 
 ## Installation
 
