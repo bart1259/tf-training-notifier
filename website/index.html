@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Tensorflow Training Notifier</title>
+    </head>
+    <body>
+        <h1>Tensorflow Training Notifier 🚨</h1>
+        <h2>What is Tensorflow Training Notifier?</h2>
+        <p>Tensorflow training notifier allows users to keep track of their tensorflow training jobs remotely. You will periodically recieve mobile Telegram notifications regarding the job's progress and loss values. </p>
+        <h2>How do I setup the notifier?</h2>
+        <p>To setup the notifier you need to make a Telegram Bot and save the bot's token and chat ID into system enviornment variables which the notifier will use to send you updates</p>
+        <ol>
+            <li>Download the Telegram app from your phone's appstore</li>
+            <li>Login to Telegram on your phone by confirming your phone number and name</li>
+            <li>Scan the QR on the Telegram <a href="https://web.telegram.org/k/">web client</a></li>
+            <li>Link your Telegram account to the desktop by following the instructions on the app</li>
+            <li>Logged into Telegram on the web client, find the verified user named @BotFather and start a chat with them.</li>
+            <li>Request a new bot by sending the `/newbot` command</li>
+            <li>Name your bot whatever you want (ex. TF Job Notifier Bot)</li>
+            <li>Choose a username for your bot (ex. tf_job_notifier_bot)</li>
+            <li>Copy your HTTP API token (don't share this with anyone as this can be used to impersonate your bot)</li>
+            <li>Find your bot in your contacts and send it a message</li>
+            <li>Navigate to <a href="https://api.telegram.org/bot/getUpdates">https://api.telegram.org/bot&lt;YOUR HTTP API TOKEN&gt;/getUpdates</a></li>
+            <li>Copy the chat ID</li>
+            <li>Set the http token and chat ID as enviornment variables in your OS
+                <h4>Windows</h4>
+                <ol>
+                    <li>Control Panel > Edit System Enviornment Variables > Enviornment Variables...</li>
+                    <li>Select New and set the Variable name as "TRAINING_NOTIFIER_TOKEN" and the value as your HTTP API token</li>
+                    <li>Select New and set the Variable name as "TRAINING_NOTIFIER_CHAT_ID" and the value as you and your bot's chat ID</li>
+                    <li>Restart your computer</li>
+                </ol>
+                <h4>Unix</h4>
+                <ol>
+                    <li>TODO</li>
+                </ol>
+            </li>
+
+            
+        </ol>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+                    Arial, sans-serif;
+                margin: auto;
+                max-width: 38rem;
+                padding: 2rem;
+            }
+
+        </style>
+    </body>
+</html>
