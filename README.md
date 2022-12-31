@@ -7,7 +7,7 @@ A python package which periodically notifies you of your Tensorflow job's progre
 The python package can be installed via pip.
 
 ```bash
-pip install FIXME
+pip install tf-training-notifier
 ```
 
 ## Setup

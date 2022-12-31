@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tf-training-notifier"
-version = "1.0.0"
+version = "1.0.1"
 description = "Sends telegram messages informing user about ML training job progress."
 readme = "README.md"
 authors = [{ name = "Bart Gebka", email = "bartg1259@gmail.com" }]
