@@ -10,7 +10,7 @@ notifier_chat_id = None
 
 def test_notifier():
     check_setup()
-    send_telegram_message("Test Message. If you have recieved this, everything is configured correctly. Instructions can be found at https://bart1259.github.io/tf-training-notifier/")
+    send_telegram_message("Test Message. If you have recieved this, everything is configured correctly.")
 
 def check_setup():
     global notifier_bot_token
@@ -19,7 +19,7 @@ def check_setup():
         notifier_bot_token = os.environ["TRAINING_NOTIFIER_TOKEN"]
         notifier_chat_id = os.environ["TRAINING_NOTIFIER_CHAT_ID"]
     except:
-        raise Exception("Could not find required enviornment variables (TRAINING_NOTIFIER_TOKEN, TRAINING_NOTIFIER_CHAT_ID). Are they set?")
+        raise Exception("Could not find required enviornment variables (TRAINING_NOTIFIER_TOKEN, TRAINING_NOTIFIER_CHAT_ID). Are they set? Instructions on how to configure can be found at https://bart1259.github.io/tf-training-notifier/")
 
 def convert_seconds_to_string(seconds):
     seconds = round(seconds)

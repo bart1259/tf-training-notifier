@@ -19,7 +19,7 @@
             <li>Choose a username for your bot (ex. tf_job_notifier_bot)</li>
             <li>Copy your HTTP API token (don't share this with anyone as this can be used to impersonate your bot)</li>
             <li>Find your bot in your contacts and send it a message</li>
-            <li>Navigate to <a href="https://api.telegram.org/bot/getUpdates">https://api.telegram.org/bot&lt;YOUR HTTP API TOKEN&gt;/getUpdates</a></li>
+            <li>Navigate to the site <a href="https://api.telegram.org/bot/getUpdates">https://api.telegram.org/bot&lt;YOUR HTTP API TOKEN&gt;/getUpdates</a></li>
             <li>Copy the chat ID</li>
             <li>Set the http token and chat ID as enviornment variables in your OS
                 <h4>Windows</h4>
@@ -31,7 +31,13 @@
                 </ol>
                 <h4>Unix</h4>
                 <ol>
-                    <li>TODO</li>
+                    <li>Open the ~/.profile file in a text editor</li>
+                    <li>Add the lines:
+                        <ul>
+                            <li>export TRAINING_NOTIFIER_TOKEN="&lt;Your Bot Token&gt;"</li>
+                            <li>export TRAINING_NOTIFIER_CHAT_ID="&lt;Your chat ID&gt;"</li>
+                        </ul>
+                    </li>
                 </ol>
             </li>
 
